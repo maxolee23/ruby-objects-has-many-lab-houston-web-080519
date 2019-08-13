@@ -4,4 +4,9 @@ class Artist
     @name = name
     @songs = []
   end
+
+  def add_song(songs)
+    songs << @songs 
+    song.Artist = self 
+  end
 end
